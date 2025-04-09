@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #eee;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.product {
+    text-align: center;
+}
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
